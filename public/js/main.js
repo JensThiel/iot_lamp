@@ -11,7 +11,7 @@ var $lamp = $("#lamp");
 if(on==1 && $lamp.attr('src')=='/images/lampoff.png'){
     
     $lamp.fadeOut(time_out, function() {
-        $lamp.attr('src','images/lampon.png');
+        $lamp.attr('src','/images/lampon.png');
     })
     .fadeIn(time_out);
 }
