@@ -1,0 +1,25 @@
+{
+    "name": "lamp",
+    "main": "server.js",
+    "description": "An introduction to developing Node.js apps on the Bluemix platform",
+    "version": "0.1.1",
+    "private": false,
+    "engines": {
+      "node": "6.*"
+    },
+    "scripts": {
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JensThiel/iot_lamp"
+    },
+    "dependencies": {
+      "express": "^4.15.x",
+      "path": "^0.12.7",
+      "pug": "^2.0.0-rc.4"
+    },
+    "author": "JensT",
+    "license": "Apache-2.0"
+  }
+  
